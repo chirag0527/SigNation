@@ -37,12 +37,3 @@ npm install
 npm run start
 ```
 
-
-
-## Deployment of Smart Contract
-
-Smart Contract is deployed on ***Jakarta Network.***
-Smart Contract hash value is `KT1V4NS7FAJXNCtbfY6mHoDnrsz1yX8tKx8e`
-
-## Live Site
-```https://depethack.netlify.app/```
