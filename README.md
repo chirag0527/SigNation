@@ -37,3 +37,6 @@ npm install
 npm run start
 ```
 
+Contributors:
+Saumay Rustagi
+Chirag Paul
