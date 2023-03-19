@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@layer components{
+  .nav-items{
+    @apply hover:text-white text-lg transition-all duration-100 ease-linear font-bold;
+  }
+  .wallet{
+    @apply text-[#ECB365] text-lg hover:text-[#bb9054] transition-all duration-100 ease-linear font-bold;
+  }
+}
+
+@font-face {
+  font-family: SfPro;
+  src:url("assets/font.ttf");
+}
+@font-face {
+  font-family: HarmoniaSansRegular;
+  src:url("assets/HarmoniaSansW01Regular.ttf");
+}
+@font-face {
+  font-family: HarmoniaSansBold;
+  src:url("assets/HarmoniaSansW01Bold.ttf");
+}
+@font-face {
+  font-family: SfPro;
+  src:url("assets/font.ttf");
+}
+
+@font-face {
+  font-family: 'ProductSansLight';
+  src: url('./fonts/ProductSansLight.ttf')format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'ProductSansRegular';
+  src: url('./fonts/ProductSansRegular.ttf')format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'ProductSansBold';
+  src: url('./fonts/ProductSansBold.ttf')format('truetype');
+  font-style: normal;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('images/pattern.jpg');
+  background-size: contain;
+  background-color: white;
+  font-family: 'ProductSansRegular', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Roboto',
+    monospace;
+}
+.decoration{
+  margin-top: -30px;
+  margin-right: 30px;
+}
+.theme{
+  margin-top: 30px;
+  margin-left: 100px;
+  font-size: 130px;
+  font-weight: 700;
+  line-height: 130px;
+}
+
+.active{
+  border-bottom: 5px solid #ECB365;
+}
